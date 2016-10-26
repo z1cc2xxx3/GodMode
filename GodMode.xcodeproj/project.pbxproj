@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB243921DC1658900E608E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB243911DC1658900E608E8 /* AppDelegate.swift */; };
+		FAB243941DC1658900E608E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB243931DC1658900E608E8 /* ViewController.swift */; };
+		FAB243971DC1658900E608E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB243951DC1658900E608E8 /* Main.storyboard */; };
+		FAB243991DC1658900E608E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB243981DC1658900E608E8 /* Assets.xcassets */; };
+		FAB2439C1DC1658900E608E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB2439A1DC1658900E608E8 /* LaunchScreen.storyboard */; };
+		FAB243A71DC1658900E608E8 /* GodModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB243A61DC1658900E608E8 /* GodModeTests.swift */; };
+		FAB243B21DC1686700E608E8 /* Cima_da_Conegliano,_God_the_Father.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB243B11DC1686700E608E8 /* Cima_da_Conegliano,_God_the_Father.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB243A31DC1658900E608E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB243861DC1658900E608E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB2438D1DC1658900E608E8;
+			remoteInfo = GodMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAB2438E1DC1658900E608E8 /* GodMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB243911DC1658900E608E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB243931DC1658900E608E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB243961DC1658900E608E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB243981DC1658900E608E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB2439B1DC1658900E608E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB2439D1DC1658900E608E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB243A21DC1658900E608E8 /* GodModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB243A61DC1658900E608E8 /* GodModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodModeTests.swift; sourceTree = "<group>"; };
+		FAB243A81DC1658900E608E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB243B11DC1686700E608E8 /* Cima_da_Conegliano,_God_the_Father.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Cima_da_Conegliano,_God_the_Father.jpg"; path = "../../../../Downloads/Cima_da_Conegliano,_God_the_Father.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB2438B1DC1658900E608E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB2439F1DC1658900E608E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB243851DC1658900E608E8 = {
+			isa = PBXGroup;
+			children = (
+				FAB243901DC1658900E608E8 /* GodMode */,
+				FAB243A51DC1658900E608E8 /* GodModeTests */,
+				FAB2438F1DC1658900E608E8 /* Products */,
+				FAB243B11DC1686700E608E8 /* Cima_da_Conegliano,_God_the_Father.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB2438F1DC1658900E608E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2438E1DC1658900E608E8 /* GodMode.app */,
+				FAB243A21DC1658900E608E8 /* GodModeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB243901DC1658900E608E8 /* GodMode */ = {
+			isa = PBXGroup;
+			children = (
+				FAB243911DC1658900E608E8 /* AppDelegate.swift */,
+				FAB243931DC1658900E608E8 /* ViewController.swift */,
+				FAB243951DC1658900E608E8 /* Main.storyboard */,
+				FAB243981DC1658900E608E8 /* Assets.xcassets */,
+				FAB2439A1DC1658900E608E8 /* LaunchScreen.storyboard */,
+				FAB2439D1DC1658900E608E8 /* Info.plist */,
+			);
+			path = GodMode;
+			sourceTree = "<group>";
+		};
+		FAB243A51DC1658900E608E8 /* GodModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB243A61DC1658900E608E8 /* GodModeTests.swift */,
+				FAB243A81DC1658900E608E8 /* Info.plist */,
+			);
+			path = GodModeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB2438D1DC1658900E608E8 /* GodMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB243AB1DC1658900E608E8 /* Build configuration list for PBXNativeTarget "GodMode" */;
+			buildPhases = (
+				FAB2438A1DC1658900E608E8 /* Sources */,
+				FAB2438B1DC1658900E608E8 /* Frameworks */,
+				FAB2438C1DC1658900E608E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GodMode;
+			productName = GodMode;
+			productReference = FAB2438E1DC1658900E608E8 /* GodMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAB243A11DC1658900E608E8 /* GodModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB243AE1DC1658900E608E8 /* Build configuration list for PBXNativeTarget "GodModeTests" */;
+			buildPhases = (
+				FAB2439E1DC1658900E608E8 /* Sources */,
+				FAB2439F1DC1658900E608E8 /* Frameworks */,
+				FAB243A01DC1658900E608E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB243A41DC1658900E608E8 /* PBXTargetDependency */,
+			);
+			name = GodModeTests;
+			productName = GodModeTests;
+			productReference = FAB243A21DC1658900E608E8 /* GodModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB243861DC1658900E608E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "张晨曦Alex";
+				TargetAttributes = {
+					FAB2438D1DC1658900E608E8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FAB243A11DC1658900E608E8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAB2438D1DC1658900E608E8;
+					};
+				};
+			};
+			buildConfigurationList = FAB243891DC1658900E608E8 /* Build configuration list for PBXProject "GodMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB243851DC1658900E608E8;
+			productRefGroup = FAB2438F1DC1658900E608E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB2438D1DC1658900E608E8 /* GodMode */,
+				FAB243A11DC1658900E608E8 /* GodModeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB2438C1DC1658900E608E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB2439C1DC1658900E608E8 /* LaunchScreen.storyboard in Resources */,
+				FAB243991DC1658900E608E8 /* Assets.xcassets in Resources */,
+				FAB243971DC1658900E608E8 /* Main.storyboard in Resources */,
+				FAB243B21DC1686700E608E8 /* Cima_da_Conegliano,_God_the_Father.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB243A01DC1658900E608E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB2438A1DC1658900E608E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB243941DC1658900E608E8 /* ViewController.swift in Sources */,
+				FAB243921DC1658900E608E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB2439E1DC1658900E608E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB243A71DC1658900E608E8 /* GodModeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB243A41DC1658900E608E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB2438D1DC1658900E608E8 /* GodMode */;
+			targetProxy = FAB243A31DC1658900E608E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAB243951DC1658900E608E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB243961DC1658900E608E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB2439A1DC1658900E608E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB2439B1DC1658900E608E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB243A91DC1658900E608E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB243AA1DC1658900E608E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB243AC1DC1658900E608E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GodMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.GodMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAB243AD1DC1658900E608E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GodMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.GodMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FAB243AF1DC1658900E608E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GodModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.GodModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GodMode.app/GodMode";
+			};
+			name = Debug;
+		};
+		FAB243B01DC1658900E608E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GodModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.GodModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GodMode.app/GodMode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB243891DC1658900E608E8 /* Build configuration list for PBXProject "GodMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB243A91DC1658900E608E8 /* Debug */,
+				FAB243AA1DC1658900E608E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB243AB1DC1658900E608E8 /* Build configuration list for PBXNativeTarget "GodMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB243AC1DC1658900E608E8 /* Debug */,
+				FAB243AD1DC1658900E608E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB243AE1DC1658900E608E8 /* Build configuration list for PBXNativeTarget "GodModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB243AF1DC1658900E608E8 /* Debug */,
+				FAB243B01DC1658900E608E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB243861DC1658900E608E8 /* Project object */;
+}
